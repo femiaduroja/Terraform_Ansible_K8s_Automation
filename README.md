@@ -3,9 +3,11 @@ We are using Terraform for provisioning the intrstructure which include VPC | In
 
 # Ansible Installation
 ``` sh
-# Create a REDHAT EC2 instance in aws cloud and assigned IAM roles
+# Create a REDHAT EC2 Instance in AWS Cloud and Assigned IAM Roles
+
 AmazonEC2FullACCESS
 AmazonVPCFullACCESS
+
 $ sudo useradd ansible
 $ echo "ansible  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/ansible
 $ sudo su - ansible
